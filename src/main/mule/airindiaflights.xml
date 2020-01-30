@@ -152,5 +152,6 @@ payload.body.ns0#getFlightsResponse.*return map ( return , indexOfReturn ) -> {
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="567f3986-d96a-4c96-9634-7bdd7cab3e90" message="airindia logger.....#[payload]"/>
     </flow>
 </mule>
